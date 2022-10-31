@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"
+    />
+    <title>responsive one-page company website</title>
+    <!-- jquery cdn -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <!-- siema slide cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/siema@1.5.1/dist/siema.min.js"></script>
+    <link rel="stylesheet" href="css/import.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <header id="home">
+      <div>
+        <h1>
+          <a href="#">
+            <img src="images/logo.png" alt="logo" />
+          </a>
+        </h1>
+        <label for="mui" class="mnav"
+          ><span class="material-icons">menu</span></label
+        >
+        <input type="checkbox" id="mui" class="mnav" />
+        <nav>
+          <ul>
+            <li data-nav="home"><a href="#home">HOME</a></li>
+            <li data-nav="about"><a href="#about">ABOUT</a></li>
+            <li data-nav="expertise"><a href="#expertise">EXPERTISE</a></li>
+            <li data-nav="teams"><a href="#teams">TEAMS</a></li>
+            <li data-nav="works"><a href="#works">WORKS</a></li>
+            <li data-nav="talk"><a href="#talk">PEOPLE SAY</a></li>
+            <li data-nav="contact"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div class="slideContainer">
+          <ul class="slideGroup">
+            <li class="slide">
+              <h2>We Are Awesome Creative Agency</h2>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
+                amet mauris. Morbi accumsan ipsum velit.
+              </p>
+              <a href="" class="btn_more">LEARN MORE</a>
+            </li>
+            <li class="slide">
+              <h2>We Are Awesome Lorem Ipsum</h2>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
+                amet mauris. Morbi accumsan ipsum velit.
+              </p>
+              <a href="" class="btn_more">LEARN MORE</a>
+            </li>
+            <li class="slide">
+              <h2>We Are Aenean Bibendum Auctor</h2>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
+                amet mauris. Morbi accumsan ipsum velit.
+              </p>
+              <a href="" class="btn_more">LEARN MORE</a>
+            </li>
+            <li class="slide">
+              <h2>We Are Awesome Lorem Ipsum</h2>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
+                amet mauris. Morbi accumsan ipsum velit.
+              </p>
+              <a href="" class="btn_more">LEARN MORE</a>
+            </li>
+          </ul>
+        </div>
+        <ol class="pagerGroup"></ol>
+      </div>
+    </header>
+
+    <figure class="container" id="about">
+      <img src="images/ci.png" alt="ci" />
+      <figcaption>
+        <h2>OUR STORY</h2>
+        <p>
+          This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+          velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+          nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed
+          odio sit amet nibh vulputate cursus
+        </p>
+        <p>
+          Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
+          ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+          per inceptos himenaeos.
+        </p>
+        <a href="" class="btn_more">LEARN MORE</a>
+      </figcaption>
+    </figure>
+
+    <section class="story">
+      <a href="" class="video_play">▷</a>
+      <h2>WATCH OUR STORY</h2>
+      <div class="overlay video_overlay">
+        <div class="inner video_inner">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Rk6_hdRtJOE"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <a href="" class="video_close"
+            ><span class="material-icons">highlight_off</span></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="container expArea" id="expertise">
+      <h2>EXPERTISE</h2>
+      <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+      <ul>
+        <li>
+          <h3>WEB DESIGN & DEVELOPMENT</h3>
+          <p>
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+            velit auctor aliquet Aenean.
+          </p>
+        </li>
+        <li>
+          <h3>BRANDING IDENTITY</h3>
+          <p>
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+            velit auctor aliquet Aenean.
+          </p>
+        </li>
+        <li>
+          <h3>MOBILE APP</h3>
+          <p>
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+            velit auctor aliquet Aenean.
+          </p>
+        </li>
+        <li>
+          <h3>SEARCH ENGINE OPTIMIZATION</h3>
+          <p>
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+            velit auctor aliquet Aenean.
+          </p>
+        </li>
+        <li>
+          <h3>GAME DEVELOPMENT</h3>
+          <p>
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+            velit auctor aliquet Aenean.
+          </p>
+        </li>
+        <li>
+          <h3>MADE WITH LOVE</h3>
+          <p>
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+            velit auctor aliquet Aenean.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="teamsArea" id="teams">
+      <div class="container">
+        <h2>MEET OUR AMAZING TEAM</h2>
+        <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+        <ul>
+          <li>
+            <figure>
+              <img src="images/teams_01.png" alt="exIMG" />
+              <figcaption>
+                <dl>
+                  <dt>SEMF UCUK</dt>
+                  <dd>CEO & FOUNDER</dd>
+                </dl>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="images/teams_02.png" alt="exIMG" />
+              <figcaption>
+                <dl>
+                  <dt>DIK ADALIN</dt>
+                  <dd>ENGINEERING</dd>
+                </dl>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="images/teams_03.png" alt="exIMG" />
+              <figcaption>
+                <dl>
+                  <dt>JENG KOL</dt>
+                  <dd>DESIGNER</dd>
+                </dl>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="images/teams_04.png" alt="exIMG" />
+              <figcaption>
+                <dl>
+                  <dt>PET ROMAK</dt>
+                  <dd>MARKETING</dd>
+                </dl>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+        <p>Become part of our dream team, let’s join us !</p>
+        <a href="" class="btn_more">WE ARE HIRING</a>
+      </div>
+    </section>
+
+    <section class="works" id="works">
+      <h2>
+        OUR WORKS
+        <a href="">See All Project in dribbble</a>
+      </h2>
+      <ul>
+        <li>
+          <a href=""><img src="images/work_1.jpg" alt="ex_img" /></a>
+        </li>
+        <li>
+          <a href=""><img src="images/work_2.jpg" alt="ex_img" /></a>
+        </li>
+        <li>
+          <a href=""><img src="images/work_3.jpg" alt="ex_img" /></a>
+        </li>
+        <li>
+          <a href=""><img src="images/work_4.jpg" alt="ex_img" /></a>
+        </li>
+        <li>
+          <a href=""><img src="images/work_5.jpg" alt="ex_img" /></a>
+        </li>
+        <li>
+          <a href=""><img src="images/work_6.jpg" alt="ex_img" /></a>
+        </li>
+        <li>
+          <a href=""><img src="images/work_7.jpg" alt="ex_img" /></a>
+        </li>
+        <li>
+          <a href=""><img src="images/work_8.jpg" alt="ex_img" /></a>
+        </li>
+        <li>
+          <a href=""><img src="images/work_9.jpg" alt="ex_img" /></a>
+        </li>
+        <li>
+          <a href=""><img src="images/work_10.jpg" alt="ex_img" /></a>
+        </li>
+        <li>
+          <a href=""><img src="images/work_11.jpg" alt="ex_img" /></a>
+        </li>
+        <li>
+          <a href=""><img src="images/work_12.jpg" alt="ex_img" /></a>
+        </li>
+      </ul>
+      <div class="overlay img_overlay">
+        <div class="inner img_inner">
+          <img class="updateImg" src="images/work_1.jpg" alt="ex_img" />
+        </div>
+      </div>
+      <a href="" class="btn_more">LOAD MORE</a>
+    </section>
+
+    <section class="talk" id="talk">
+      <div class="container">
+        <h2 class="hiddenTitle">talkArea</h2>
+        <ul class="talk_slidePages">
+          <li id="talk_slide1">
+            <p>
+              This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+              velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+              auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+              Duis sed odio sit amet nibh vulputate cursus a sit amet mauris non
+              mauris vitae erat consequat elit.
+            </p>
+            <dl>
+              <dt>JANE GALADRIEL</dt>
+              <dd>CEO TENGKUREP</dd>
+            </dl>
+          </li>
+          <li id="talk_slide2">
+            <p>
+              This is Photoshop's version of Lorem Ipsum. Duis sed odio sit amet
+              nibh vulputate cursus a sit amet mauris non mauris vitae erat
+              consequat elit. Proin gravida nibh vel velit auctor aliquet.
+              Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
+              consequat ipsum, nec sagittis sem nibh id elit.
+            </p>
+            <dl>
+              <dt>JENG KOL</dt>
+              <dd>DESIGNER</dd>
+            </dl>
+          </li>
+          <li class="active" id="talk_slide3">
+            <p>
+              This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+              velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+              auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+              Duis sed odio sit amet nibh vulputate cursus a sit amet mauris non
+              mauris vitae erat consequat elit.
+            </p>
+            <dl>
+              <dt>PET ROMAK</dt>
+              <dd>MARKETING</dd>
+            </dl>
+          </li>
+          <li id="talk_slide4">
+            <p>
+              This is Photoshop's version of Lorem Ipsum. Duis sed odio sit amet
+              nibh vulputate cursus a sit amet mauris non mauris vitae erat
+              consequat elit. Proin gravida nibh vel velit auctor aliquet.
+              Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
+              consequat ipsum, nec sagittis sem nibh id elit.
+            </p>
+            <dl>
+              <dt>SEMF UCUK</dt>
+              <dd>FOUNDER</dd>
+            </dl>
+          </li>
+          <li id="talk_slide5">
+            <p>
+              This is Photoshop's version of Lorem Ipsum. lorem quis bibendum
+              auctor, Proin gravida nibh vel velit auctor aliquet. Aenean
+              sollicitudin, nisi elit consequat ipsum, nec sagittis sem nibh id
+              elit. Duis sed odio sit amet nibh vulputate cursus a sit amet
+              mauris non mauris vitae erat consequat elit.
+            </p>
+            <dl>
+              <dt>DIK ADALIN</dt>
+              <dd>ENGINEERING</dd>
+            </dl>
+          </li>
+        </ul>
+        <div class="slides_container">
+          <a href="#" class="prev"
+            ><img src="images/slide_left.png" alt="left_btn"
+          /></a>
+          <ol class="talk_slides">
+            <li class="talk_slide" data-slide="talk_slide1">
+              <a href=""><img src="images/thumb_01.png" alt="thumb_img1" /></a>
+            </li>
+            <li class="talk_slide" data-slide="talk_slide2">
+              <a href=""><img src="images/thumb_02.png" alt="thumb_img2" /></a>
+            </li>
+            <li class="talk_slide active" data-slide="talk_slide3">
+              <a href=""><img src="images/thumb_03.png" alt="thumb_img3" /></a>
+            </li>
+            <li class="talk_slide" data-slide="talk_slide4">
+              <a href=""><img src="images/thumb_04.png" alt="thumb_img4" /></a>
+            </li>
+            <li class="talk_slide" data-slide="talk_slide5">
+              <a href=""><img src="images/thumb_05.png" alt="thumb_img5" /></a>
+            </li>
+          </ol>
+          <a href="#" class="next"
+            ><img src="images/slide_right.png" alt="right_btn"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container contact" id="contact">
+      <h2 class="hiddenTitle">contactArea</h2>
+      <form>
+        <fieldset>
+          <legend>GIVE US A GOOD NEWS</legend>
+          <input
+            type="text"
+            title="userName"
+            placeholder="Name"
+            required
+            minlength="2"
+          />
+          <input type="email" title="userEmail" placeholder="Email" required />
+          <input
+            type="text"
+            title="subject"
+            placeholder="Subject"
+            required
+            minlength="1"
+          />
+          <textarea
+            title="massage"
+            placeholder="Your Massage"
+            required
+            minlength="1"
+          ></textarea>
+          <input type="submit" value="SUBMIT" class="btn_more" />
+        </fieldset>
+      </form>
+      <div>
+        <h3>OUR HAPPY CLIENT</h3>
+        <ul>
+          <li>
+            <a href=""><img src="images/ban_01.png" alt="ZARA" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/ban_02.png" alt="MANGO" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/ban_03.png" alt="BARNEYS NEWYORK" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/ban_04.png" alt="GUCCI" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/ban_05.png" alt="Calvin Klein" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/ban_06.png" alt="Nike" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/ban_07.png" alt="CONVERSE" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/ban_08.png" alt="PUMA" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/ban_09.png" alt="LEVIS" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/ban_10.png" alt="BILLABONG" /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="foot foot_logo">
+          <h2>
+            <a href="#home"><img src="images/logo.png" alt="foot_logo" /></a>
+          </h2>
+          <p>
+            lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
+            sem nibh elit. Duis sed odio sit amet auctror a ornare odio non
+            mauris vitae erat in elit
+          </p>
+        </div>
+        <div class="foot foot_studio">
+          <h2>OUR STUIOD</h2>
+          <address>
+            <span
+              >Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres -
+              Jakarta Barat 11480 - Indonesia</span
+            >
+            <span>
+              <a href="tel:+622122243333"> (+62) 21-2224 3333 </a>
+            </span>
+          </address>
+        </div>
+        <div class="foot foot_stay">
+          <h2>STAY IN TOUCH</h2>
+          <fieldset>
+            <input
+              type="email"
+              placeholder="Subscribe our newsletter"
+              title="Subscribe our newsletter"
+            />
+            <input type="submit" />
+          </fieldset>
+          <ul>
+            <li>
+              <a href=""><img src="images/ico_sns_01.png" alt="facebook" /></a>
+            </li>
+            <li>
+              <a href=""><img src="images/ico_sns_02.png" alt="twitter" /></a>
+            </li>
+            <li>
+              <a href=""><img src="images/ico_sns_03.png" alt="dribbble" /></a>
+            </li>
+            <li>
+              <a href=""><img src="images/ico_sns_04.png" alt="instagram" /></a>
+            </li>
+            <li>
+              <a href=""><img src="images/ico_sns_05.png" alt="google" /></a>
+            </li>
+            <li>
+              <a href=""><img src="images/ico_sns_06.png" alt="youtube" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="foot foot_nav">
+          <ul>
+            <li>
+              <a href="">HELP</a>
+            </li>
+            <li>
+              <a href="">TEAMS & CONDITION</a>
+            </li>
+            <li>
+              <a href="">PRIVACY</a>
+            </li>
+            <li>
+              <p>Copyright © 2015 - Tajem Creative</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

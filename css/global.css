@@ -1,0 +1,832 @@
+.btn_more {
+  font-family: "Hammersmith One", sans-serif;
+}
+header div .slides .slide,
+body > figure figcaption h2,
+.expArea h2,
+.expArea > p,
+.teamsArea div h2,
+.teamsArea div p,
+.works h2,
+.talk ul li p,
+.contact form fieldset legend,
+.contact > div h3 {
+  font-family: "Playfair Display", serif;
+}
+header div nav ul li a,
+header div .slides .slide p,
+footer .foot,
+.expArea ul li > *,
+.teamsArea ul li figure figcaption dl,
+.teamsArea div p:last-of-type,
+.works h2 a,
+.talk ul li dl,
+.contact form fieldset > input:not([type="submit"]),
+.contact form fieldset > textarea {
+  font-family: "Roboto", sans-serif;
+}
+.btn_more {
+  max-width: 120px;
+  display: block;
+  color: #00e0d0;
+  border: 1px solid #00e0d0;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px 0.93%;
+  text-align: center;
+}
+.hiddenTitle {
+  display: none;
+}
+/* all using css */
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 942px;
+    margin: 0 auto;
+    padding: 70px 0;
+  }
+  /* desktop all using container */
+
+  header {
+    background: url("../images/bg_01.png") no-repeat center;
+    background-size: cover;
+    padding-top: 15px;
+  }
+  header .mnav {
+    display: none;
+  }
+  header div {
+    max-width: 942px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 70px;
+  }
+  header div h1 {
+    max-width: 128px;
+  }
+  header div h1 a {
+    display: block;
+  }
+  header div h1 a img {
+    width: 100%;
+  }
+  header > div nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    text-align: right;
+    padding-left: 150px;
+    box-sizing: border-box;
+  }
+  header > div nav ul li {
+    display: inline-block;
+  }
+  header > div nav ul li:not(:first-child) {
+    margin-left: 2.65%;
+  }
+  header > div nav ul li a {
+    display: block;
+    line-height: 50px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px #000;
+  }
+  header > div nav ul li.active a,
+  header > div nav ul li:hover a {
+    color: #00e0d0;
+  }
+
+  /* main_slides */
+  header div .slideContainer {
+    padding-top: 165px;
+    position: relative;
+    text-align: center;
+    height: 525px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  header div .slideContainer .slideGroup {
+    position: absolute;
+    width: 100%;
+  }
+  header div .slideContainer .slideGroup .slide {
+    display: block;
+    position: absolute;
+    width: 100%;
+  }
+  header div .slideContainer .slideGroup .slide h2 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 900;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background: url(../images/bd_01.png) no-repeat bottom center;
+  }
+  header div .slideContainer .slideGroup .slide p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    padding: 0 8.5%;
+    line-height: 24px;
+    margin-bottom: 45px;
+  }
+  header div .slideContainer .slideGroup .slide a {
+    margin: 0 auto;
+  }
+
+  /* main_slides pager */
+  header div ol.pagerGroup {
+    text-align: center;
+  }
+  header div ol.pagerGroup li {
+    display: inline-block;
+    cursor: pointer;
+  }
+  header div ol.pagerGroup li:not(:first-child) {
+    margin-left: 5px;
+  }
+  header div ol.pagerGroup li a {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    text-indent: -9999px;
+  }
+  header div ol.pagerGroup li.active a,
+  header div ol.pagerGroup li:hover a {
+    background-color: #00e0d0;
+    border-color: #00e0d0;
+  }
+  /* header fin */
+
+  footer {
+    background: url("../images/bg_05.png") no-repeat center;
+    background-size: cover;
+  }
+  footer > div:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+  }
+  footer > div > div:not(:last-child) {
+    float: left;
+    width: 31%;
+    margin-bottom: 65px;
+  }
+  footer h2 {
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 35px;
+  }
+  footer .foot_studio,
+  footer .foot_stay {
+    margin-left: 3.5%;
+  }
+  footer .foot_logo h2 {
+    max-width: 128px;
+    margin-bottom: 15px;
+  }
+  footer .foot_logo h2 a {
+    display: block;
+  }
+  footer .foot_logo h2 a img {
+    width: 100%;
+  }
+  footer .foot_logo p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+  }
+  footer .foot_studio address {
+    font-style: normal;
+  }
+  footer .foot_studio address span {
+    padding-left: 9.96%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left 3px;
+  }
+  footer .foot_studio address span,
+  footer .foot_studio address span a {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+  }
+  footer .foot_studio address span:first-child {
+    background-image: url("../images/bul_map.png");
+  }
+  footer .foot_studio address span:last-child {
+    background-image: url("../images/bul_phone.png");
+  }
+  footer .foot_stay:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+  }
+  footer .foot_stay fieldset input {
+    float: left;
+    margin-bottom: 25px;
+  }
+  footer .foot_stay fieldset input[type="email"] {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.75);
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 43px;
+    width: 70%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  footer .foot_stay fieldset input[type="submit"] {
+    width: 25%;
+    margin-left: 5%;
+    box-sizing: border-box;
+    text-indent: -9999px;
+    border: none;
+    line-height: 43px;
+    background: rgba(255, 255, 255, 0.5) url("../images/btn_send.png") no-repeat
+      center;
+  }
+  footer .foot_stay ul li {
+    display: inline-block;
+  }
+  footer .foot_stay ul li:not(:first-child) {
+    margin-left: 2.72%;
+  }
+  footer .foot_stay ul li a {
+    display: block;
+  }
+  footer .foot_nav ul li a,
+  footer .foot_nav p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+  }
+  footer .foot_nav ul li:not(:last-child) {
+    float: left;
+  }
+  footer .foot_nav ul li:last-child {
+    float: right;
+  }
+  footer .foot_nav ul li {
+    display: block;
+  }
+  footer .foot_nav ul li:nth-child(2),
+  footer .foot_nav ul li:nth-child(3) {
+    margin-left: 3.71%;
+  }
+  /* footer fin */
+}
+/* desktop fin */
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .container {
+    max-width: 728px;
+    margin: 0 auto;
+    padding: 70px 0;
+  }
+  /* desktop all using container */
+
+  header {
+    background: url("../images/bg_01.png") no-repeat center;
+    background-size: cover;
+    padding-top: 15px;
+  }
+  header .mnav {
+    display: none;
+  }
+  header div {
+    max-width: 728px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 70px;
+  }
+  header div h1 {
+    max-width: 128px;
+  }
+  header div h1 a {
+    display: block;
+  }
+  header div h1 a img {
+    width: 100%;
+  }
+  header > div nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    text-align: right;
+    padding-left: 150px;
+    box-sizing: border-box;
+  }
+  header > div nav ul li {
+    display: inline-block;
+  }
+  header > div nav ul li:not(:first-child) {
+    margin-left: 2.65%;
+  }
+  header > div nav ul li a {
+    display: block;
+    line-height: 50px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px #000;
+  }
+  header > div nav ul li.active a,
+  header > div nav ul li:hover a {
+    color: #00e0d0;
+  }
+
+  /* main_slides */
+  header div .slideContainer {
+    padding-top: 165px;
+    position: relative;
+    text-align: center;
+    height: 525px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  header div .slideContainer .slideGroup {
+    position: absolute;
+    width: 100%;
+  }
+  header div .slideContainer .slideGroup .slide {
+    display: block;
+    position: absolute;
+    width: 100%;
+  }
+  header div .slideContainer .slideGroup .slide h2 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 900;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background: url(../images/bd_01.png) no-repeat bottom center;
+  }
+  header div .slideContainer .slideGroup .slide p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    padding: 0 8.5%;
+    line-height: 24px;
+    margin-bottom: 45px;
+  }
+  header div .slideContainer .slideGroup .slide a {
+    margin: 0 auto;
+  }
+
+  /* main_slides pager */
+  header div ol.pagerGroup {
+    text-align: center;
+  }
+  header div ol.pagerGroup li {
+    display: inline-block;
+    cursor: pointer;
+  }
+  header div ol.pagerGroup li:not(:first-child) {
+    margin-left: 5px;
+  }
+  header div ol.pagerGroup li a {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    text-indent: -9999px;
+  }
+  header div ol.pagerGroup li.active a,
+  header div ol.pagerGroup li:hover a {
+    background-color: #00e0d0;
+    border-color: #00e0d0;
+  }
+  /* header fin */
+
+  footer {
+    background: url("../images/bg_05.png") no-repeat center;
+    background-size: cover;
+  }
+  footer > div:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+  }
+  footer > div > .foot_logo,
+  footer > div > .foot_studio {
+    float: left;
+    width: 48%;
+    margin-bottom: 65px;
+  }
+  footer h2 {
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 35px;
+  }
+  footer .foot_studio {
+    margin-left: 4%;
+  }
+  footer .foot_logo h2 {
+    max-width: 128px;
+    margin-bottom: 15px;
+  }
+  footer .foot_logo h2 a {
+    display: block;
+  }
+  footer .foot_logo h2 a img {
+    width: 100%;
+  }
+  footer .foot_logo p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+  }
+  footer .foot_studio address {
+    font-style: normal;
+  }
+  footer .foot_studio address span {
+    padding-left: 9.96%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left 3px;
+  }
+  footer .foot_studio address span,
+  footer .foot_studio address span a {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+  }
+  footer .foot_studio address span:first-child {
+    background-image: url("../images/bul_map.png");
+  }
+  footer .foot_studio address span:last-child {
+    background-image: url("../images/bul_phone.png");
+  }
+  footer .foot_stay:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+  }
+  footer .foot_stay > *:not(:first-child) {
+    float: left;
+    width: 48%;
+  }
+  footer .foot_stay ul {
+    margin-left: 4%;
+  }
+  footer .foot_stay fieldset:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+  }
+  footer .foot_stay fieldset input {
+    float: left;
+    margin-bottom: 25px;
+  }
+  footer .foot_stay fieldset input[type="email"] {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.75);
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 43px;
+    width: 70%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  footer .foot_stay fieldset input[type="submit"] {
+    width: 25%;
+    margin-left: 5%;
+    box-sizing: border-box;
+    text-indent: -9999px;
+    border: none;
+    line-height: 43px;
+    background: rgba(255, 255, 255, 0.5) url("../images/btn_send.png") no-repeat
+      center;
+  }
+  footer .foot_stay ul li {
+    display: inline-block;
+  }
+  footer .foot_stay ul li:not(:first-child) {
+    margin-left: 6%;
+  }
+  footer .foot_stay ul li a {
+    display: block;
+  }
+  footer .foot_nav ul li a,
+  footer .foot_nav p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+  }
+  footer .foot_nav ul li:not(:last-child) {
+    float: left;
+  }
+  footer .foot_nav ul li:last-child {
+    float: right;
+  }
+  footer .foot_nav ul li {
+    display: block;
+  }
+  footer .foot_nav ul li:nth-child(2),
+  footer .foot_nav ul li:nth-child(3) {
+    margin-left: 3.71%;
+  }
+  /* footer fin */
+}
+/* tablet fin */
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 728px;
+    margin: 0 auto;
+    padding: 70px 2% 70px;
+  }
+  /* desktop all using container */
+
+  header {
+    background: url("../images/bg_01.png") no-repeat center;
+    background-size: cover;
+    padding-top: 15px;
+  }
+  header > div .mnav {
+    position: absolute;
+    right: 2%;
+    top: 1.5%;
+  }
+  header > div label span.material-icons {
+    font-size: 35px;
+    color: #fff;
+    cursor: pointer;
+  }
+  header > div input[type="checkbox"] {
+    display: none;
+  }
+  header > div {
+    max-width: 728px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 2% 70px;
+  }
+  header > div h1 {
+    max-width: 128px;
+  }
+  header > div h1 a {
+    display: block;
+  }
+  header > div h1 a img {
+    width: 100%;
+  }
+  header > div nav {
+    width: 30%;
+    padding-left: 70%;
+  }
+  header > div nav ul {
+    height: 0;
+    transition: height 0.5s;
+    overflow: hidden;
+  }
+  header > div label + input[type="checkbox"]:checked + nav ul {
+    height: 210px;
+  }
+  header > div nav ul li {
+    display: block;
+    text-align: right;
+    padding-right: 5%;
+  }
+  header > div nav ul li a {
+    display: block;
+    opacity: 0;
+    line-height: 30px;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 900;
+    box-sizing: border-box;
+    text-shadow: 1px 1px 2px #000;
+    transition: opacity 0.5s;
+  }
+  header > div label + input[type="checkbox"]:checked + nav ul li a {
+    opacity: 1;
+  }
+  header > div nav ul li.active a,
+  header > div nav ul li:hover a {
+    color: #00e0d0;
+  }
+
+  /* main_slides */
+  header div .slideContainer {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    height: 510px;
+    overflow: hidden;
+  }
+  header div .slideContainer .slideGroup {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  header div .slideContainer .slideGroup .slide {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 90px 0 40px;
+    box-sizing: border-box;
+  }
+  header div .slideContainer .slideGroup .slide h2 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 900;
+    line-height: 32px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background: url(../images/bd_01.png) no-repeat bottom center;
+  }
+  header div .slideContainer .slideGroup .slide p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 45px;
+    height: 40%;
+  }
+  header div .slideContainer .slideGroup .slide a {
+    margin: 0 auto;
+  }
+
+  /* main_slides pager */
+  header div ol.pagerGroup {
+    text-align: center;
+  }
+  header div ol.pagerGroup li {
+    display: inline-block;
+    cursor: pointer;
+  }
+  header div ol.pagerGroup li:not(:first-child) {
+    margin-left: 5px;
+  }
+  header div ol.pagerGroup li a {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    text-indent: -9999px;
+  }
+  header div ol.pagerGroup li.active a,
+  header div ol.pagerGroup li:hover a {
+    background-color: #00e0d0;
+    border-color: #00e0d0;
+  }
+  /* header fin */
+
+  footer {
+    background: url("../images/bg_05.png") no-repeat center;
+    background-size: cover;
+  }
+  footer > div > .foot_logo,
+  footer > div > .foot_studio {
+    margin-bottom: 40px;
+  }
+  footer h2 {
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  footer .foot_logo h2 {
+    max-width: 128px;
+    margin-bottom: 10px;
+  }
+  footer .foot_logo h2 a {
+    display: block;
+  }
+  footer .foot_logo h2 a img {
+    width: 100%;
+  }
+  footer .foot_logo p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+  }
+  footer .foot_studio address {
+    font-style: normal;
+  }
+  footer .foot_studio address span {
+    padding-left: 9.96%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left 3px;
+  }
+  footer .foot_studio address span,
+  footer .foot_studio address span a {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+  }
+  footer .foot_studio address span:first-child {
+    background-image: url("../images/bul_map.png");
+  }
+  footer .foot_studio address span:last-child {
+    background-image: url("../images/bul_phone.png");
+  }
+  footer .foot_stay {
+    margin-bottom: 20px;
+  }
+  footer .foot_stay fieldset:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+  }
+  footer .foot_stay fieldset input {
+    float: left;
+    margin-bottom: 25px;
+  }
+  footer .foot_stay fieldset input[type="email"] {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.75);
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 43px;
+    width: 70%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  footer .foot_stay fieldset input[type="submit"] {
+    width: 25%;
+    margin-left: 5%;
+    box-sizing: border-box;
+    text-indent: -9999px;
+    border: none;
+    line-height: 43px;
+    background: rgba(255, 255, 255, 0.5) url("../images/btn_send.png") no-repeat
+      center;
+  }
+  footer .foot_stay ul {
+    text-align: center;
+  }
+  footer .foot_stay ul li {
+    display: inline-block;
+  }
+  footer .foot_stay ul li:not(:first-child) {
+    margin-left: 6%;
+  }
+  footer .foot_stay ul li a {
+    display: block;
+  }
+  footer .foot_nav ul li a,
+  footer .foot_nav p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+  }
+  footer .foot_nav ul {
+    text-align: center;
+  }
+  footer .foot_nav ul li:not(:last-child) {
+    display: inline-block;
+  }
+  footer .foot_nav ul li:last-child {
+    display: block;
+  }
+  footer .foot_nav ul li:nth-child(2),
+  footer .foot_nav ul li:nth-child(3) {
+    margin-left: 10%;
+  }
+  /* footer fin */
+}
+/* mobile fin */
