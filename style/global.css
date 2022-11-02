@@ -1,5 +1,5 @@
 .btn_more {
-  font-family: "Hammersmith One", sans-serif;
+  font-family: 'Hammersmith One', sans-serif;
 }
 header div .slides .slide,
 body > figure figcaption h2,
@@ -11,7 +11,7 @@ body > figure figcaption h2,
 .talk ul li p,
 .contact form fieldset legend,
 .contact > div h3 {
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
 }
 header div nav ul li a,
 header div .slides .slide p,
@@ -21,9 +21,9 @@ footer .foot,
 .teamsArea div p:last-of-type,
 .works h2 a,
 .talk ul li dl,
-.contact form fieldset > input:not([type="submit"]),
+.contact form fieldset > input:not([type='submit']),
 .contact form fieldset > textarea {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .btn_more {
   max-width: 120px;
@@ -49,7 +49,7 @@ footer .foot,
   /* desktop all using container */
 
   header {
-    background: url("../images/bg_01.png") no-repeat center;
+    background: url('../assets/images/bg_01.png') no-repeat center;
     background-size: cover;
     padding-top: 15px;
   }
@@ -124,7 +124,7 @@ footer .foot,
     font-weight: 900;
     padding-bottom: 30px;
     margin-bottom: 30px;
-    background: url(../images/bd_01.png) no-repeat bottom center;
+    background: url(../assets/images/bd_01.png) no-repeat bottom center;
   }
   header div .slideContainer .slideGroup .slide p {
     font-size: 14px;
@@ -167,11 +167,11 @@ footer .foot,
   /* header fin */
 
   footer {
-    background: url("../images/bg_05.png") no-repeat center;
+    background: url('../assets/images/bg_05.png') no-repeat center;
     background-size: cover;
   }
   footer > div:after {
-    content: "";
+    content: '';
     display: block;
     visibility: hidden;
     clear: both;
@@ -225,13 +225,13 @@ footer .foot,
     color: #fff;
   }
   footer .foot_studio address span:first-child {
-    background-image: url("../images/bul_map.png");
+    background-image: url('../assets/images/bul_map.png');
   }
   footer .foot_studio address span:last-child {
-    background-image: url("../images/bul_phone.png");
+    background-image: url('../assets/images/bul_phone.png');
   }
   footer .foot_stay:after {
-    content: "";
+    content: '';
     display: block;
     visibility: hidden;
     clear: both;
@@ -240,7 +240,7 @@ footer .foot,
     float: left;
     margin-bottom: 25px;
   }
-  footer .foot_stay fieldset input[type="email"] {
+  footer .foot_stay fieldset input[type='email'] {
     font-weight: 300;
     color: rgba(255, 255, 255, 0.75);
     background-color: transparent;
@@ -251,15 +251,15 @@ footer .foot,
     padding: 0 15px;
     box-sizing: border-box;
   }
-  footer .foot_stay fieldset input[type="submit"] {
+  footer .foot_stay fieldset input[type='submit'] {
     width: 25%;
     margin-left: 5%;
     box-sizing: border-box;
     text-indent: -9999px;
     border: none;
     line-height: 43px;
-    background: rgba(255, 255, 255, 0.5) url("../images/btn_send.png") no-repeat
-      center;
+    background: rgba(255, 255, 255, 0.5) url('../assets/images/btn_send.png')
+      no-repeat center;
   }
   footer .foot_stay ul li {
     display: inline-block;
@@ -303,7 +303,7 @@ footer .foot,
   /* desktop all using container */
 
   header {
-    background: url("../images/bg_01.png") no-repeat center;
+    background: url('../assets/images/bg_01.png') no-repeat center;
     background-size: cover;
     padding-top: 15px;
   }
@@ -378,7 +378,7 @@ footer .foot,
     font-weight: 900;
     padding-bottom: 30px;
     margin-bottom: 30px;
-    background: url(../images/bd_01.png) no-repeat bottom center;
+    background: url(../assets/images/bd_01.png) no-repeat bottom center;
   }
   header div .slideContainer .slideGroup .slide p {
     font-size: 14px;
@@ -421,11 +421,11 @@ footer .foot,
   /* header fin */
 
   footer {
-    background: url("../images/bg_05.png") no-repeat center;
+    background: url('../assets/images/bg_05.png') no-repeat center;
     background-size: cover;
   }
   footer > div:after {
-    content: "";
+    content: '';
     display: block;
     visibility: hidden;
     clear: both;
@@ -479,13 +479,13 @@ footer .foot,
     color: #fff;
   }
   footer .foot_studio address span:first-child {
-    background-image: url("../images/bul_map.png");
+    background-image: url('../assets/images/bul_map.png');
   }
   footer .foot_studio address span:last-child {
-    background-image: url("../images/bul_phone.png");
+    background-image: url('../assets/images/bul_phone.png');
   }
   footer .foot_stay:after {
-    content: "";
+    content: '';
     display: block;
     visibility: hidden;
     clear: both;
@@ -498,7 +498,7 @@ footer .foot,
     margin-left: 4%;
   }
   footer .foot_stay fieldset:after {
-    content: "";
+    content: '';
     display: block;
     visibility: hidden;
     clear: both;
@@ -507,7 +507,7 @@ footer .foot,
     float: left;
     margin-bottom: 25px;
   }
-  footer .foot_stay fieldset input[type="email"] {
+  footer .foot_stay fieldset input[type='email'] {
     font-weight: 300;
     color: rgba(255, 255, 255, 0.75);
     background-color: transparent;
@@ -518,15 +518,15 @@ footer .foot,
     padding: 0 15px;
     box-sizing: border-box;
   }
-  footer .foot_stay fieldset input[type="submit"] {
+  footer .foot_stay fieldset input[type='submit'] {
     width: 25%;
     margin-left: 5%;
     box-sizing: border-box;
     text-indent: -9999px;
     border: none;
     line-height: 43px;
-    background: rgba(255, 255, 255, 0.5) url("../images/btn_send.png") no-repeat
-      center;
+    background: rgba(255, 255, 255, 0.5) url('../assets/images/btn_send.png')
+      no-repeat center;
   }
   footer .foot_stay ul li {
     display: inline-block;
@@ -570,7 +570,7 @@ footer .foot,
   /* desktop all using container */
 
   header {
-    background: url("../images/bg_01.png") no-repeat center;
+    background: url('../assets/images/bg_01.png') no-repeat center;
     background-size: cover;
     padding-top: 15px;
   }
@@ -584,7 +584,7 @@ footer .foot,
     color: #fff;
     cursor: pointer;
   }
-  header > div input[type="checkbox"] {
+  header > div input[type='checkbox'] {
     display: none;
   }
   header > div {
@@ -611,7 +611,7 @@ footer .foot,
     transition: height 0.5s;
     overflow: hidden;
   }
-  header > div label + input[type="checkbox"]:checked + nav ul {
+  header > div label + input[type='checkbox']:checked + nav ul {
     height: 210px;
   }
   header > div nav ul li {
@@ -630,7 +630,7 @@ footer .foot,
     text-shadow: 1px 1px 2px #000;
     transition: opacity 0.5s;
   }
-  header > div label + input[type="checkbox"]:checked + nav ul li a {
+  header > div label + input[type='checkbox']:checked + nav ul li a {
     opacity: 1;
   }
   header > div nav ul li.active a,
@@ -666,7 +666,7 @@ footer .foot,
     line-height: 32px;
     padding-bottom: 30px;
     margin-bottom: 30px;
-    background: url(../images/bd_01.png) no-repeat bottom center;
+    background: url(../assets/images/bd_01.png) no-repeat bottom center;
   }
   header div .slideContainer .slideGroup .slide p {
     font-size: 14px;
@@ -709,7 +709,7 @@ footer .foot,
   /* header fin */
 
   footer {
-    background: url("../images/bg_05.png") no-repeat center;
+    background: url('../assets/images/bg_05.png') no-repeat center;
     background-size: cover;
   }
   footer > div > .foot_logo,
@@ -756,16 +756,16 @@ footer .foot,
     color: #fff;
   }
   footer .foot_studio address span:first-child {
-    background-image: url("../images/bul_map.png");
+    background-image: url('../assets/images/bul_map.png');
   }
   footer .foot_studio address span:last-child {
-    background-image: url("../images/bul_phone.png");
+    background-image: url('../assets/images/bul_phone.png');
   }
   footer .foot_stay {
     margin-bottom: 20px;
   }
   footer .foot_stay fieldset:after {
-    content: "";
+    content: '';
     display: block;
     visibility: hidden;
     clear: both;
@@ -774,7 +774,7 @@ footer .foot,
     float: left;
     margin-bottom: 25px;
   }
-  footer .foot_stay fieldset input[type="email"] {
+  footer .foot_stay fieldset input[type='email'] {
     font-weight: 300;
     color: rgba(255, 255, 255, 0.75);
     background-color: transparent;
@@ -785,15 +785,15 @@ footer .foot,
     padding: 0 15px;
     box-sizing: border-box;
   }
-  footer .foot_stay fieldset input[type="submit"] {
+  footer .foot_stay fieldset input[type='submit'] {
     width: 25%;
     margin-left: 5%;
     box-sizing: border-box;
     text-indent: -9999px;
     border: none;
     line-height: 43px;
-    background: rgba(255, 255, 255, 0.5) url("../images/btn_send.png") no-repeat
-      center;
+    background: rgba(255, 255, 255, 0.5) url('../assets/images/btn_send.png')
+      no-repeat center;
   }
   footer .foot_stay ul {
     text-align: center;
